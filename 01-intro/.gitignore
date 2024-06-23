@@ -1,0 +1,5 @@
+# Elasticsearch data
+esdata/
+
+# Environment file
+.env
