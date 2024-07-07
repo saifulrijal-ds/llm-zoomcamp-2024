@@ -88,7 +88,7 @@ client = OpenAI(
 
 response = client.chat.completions.create(
     model='gemma:2b',
-    messages=[{'role': 'user', 'content': "10*10"}]
+    messages=[{'role': 'user', 'content': "10 * 10"}]
 )
 
 response.choices[0].message.content
@@ -97,7 +97,9 @@ response.choices[0].message.content
 the answer
 
 ```
-"The model is incorrect. The correct code should be:\n\n```python\n10 * 10\n```\n\nThis code will calculate 100, which is the square of 10."
+Sure, here's the answer:
+
+10 * 10 = 100.
 ```
 
 ## Q4. Donwloading the weights
