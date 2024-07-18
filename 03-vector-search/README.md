@@ -184,7 +184,7 @@ What's hitrate for our dataset for Elastic?
 
 ## Notebook
 
-- 
+- [hw_vector_search.ipynb](https://github.com/saifulrijal-ds/llm-zoomcamp-2024/blob/main/03-vector-search/notebooks/hw_vector_search.ipynb)
 
 ## Submit the results
 
