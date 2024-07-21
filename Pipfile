@@ -32,6 +32,7 @@ torchvision = {version = "*", index = "downloadpytorch"}
 torchaudio = {version = "*", index = "downloadpytorch"}
 transformers = "*"
 sentence-transformers = "*"
+dlt = {extras = ["lancedb"], version = "*"}
 
 [dev-packages]
 
