@@ -1,0 +1,9 @@
+services:
+  ollama-llama2-uncensored:
+    image: ollama/ollama
+    container_name: ollama-llama2-uncensored
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./ollama_files:/root/.ollama
+    restart: unless-stopped
