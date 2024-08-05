@@ -173,3 +173,6 @@ What's the agerage `rouge_2` across all the records?
 
 - Submit your results here: https://courses.datatalks.club/llm-zoomcamp-2024/homework/hw4
 - It's possible that your answers won't match exactly. If it's the case, select the closest one.
+
+## Solution Notebook
+[Notebook]()
