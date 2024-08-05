@@ -50,7 +50,7 @@ answer_llm = df.iloc[0].answer_llm
 
 What's the first value of the resulting vector?
 
-- 0.42
+- **0.42**
 - 0.22
 - 0.02
 - 0.21
@@ -64,7 +64,7 @@ We will put the results (scores) into the `evaluations` list
 What's the 75% percentile of the score?
 
 - 21.67
-- 31.67
+- **31.67**
 - 41.67
 - 51.67
 
@@ -96,7 +96,7 @@ What's the 75% cosine in the scores?
 
 - 0.63
 - 0.73
-- 0.83
+- **0.83**
 - 0.93
 
 ## Q4. Rouge
@@ -135,7 +135,7 @@ There are three scores: `rouge-1`, `rouge-2` and `rouge-l`, and precision, recal
 What's the F score for `rouge-1`?
 
 - 0.35
-- 0.45
+- **0.45**
 - 0.55
 - 0.65
 
@@ -143,7 +143,7 @@ What's the F score for `rouge-1`?
 
 Let's compute the average between `rouge-1`, `rouge-2` and `rouge-l` for the same record from Q4
 
-- 0.35
+- **0.35**
 - 0.45
 - 0.55
 - 0.65
@@ -165,7 +165,7 @@ And create a dataframe from them
 What's the agerage `rouge_2` across all the records?
 
 - 0.10
-- 0.20
+- **0.20**
 - 0.30
 - 0.40
 
@@ -175,4 +175,4 @@ What's the agerage `rouge_2` across all the records?
 - It's possible that your answers won't match exactly. If it's the case, select the closest one.
 
 ## Solution Notebook
-[Notebook]()
+[Notebook](https://github.com/saifulrijal-ds/llm-zoomcamp-2024/blob/main/04-monitoring/notebooks/offline-rag-evaluation-hw.ipynb)
