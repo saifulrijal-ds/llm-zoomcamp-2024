@@ -33,6 +33,16 @@ torchaudio = {version = "*", index = "downloadpytorch"}
 transformers = "*"
 sentence-transformers = "*"
 dlt = {extras = ["lancedb"], version = "*"}
+langchain = "*"
+langchain-openai = "*"
+langchain-experimental = "*"
+langchain-community = "*"
+numexpr = "*"
+sympy = "*"
+langchainhub = "*"
+chainlit = "*"
+streamlit = "*"
+rouge = "*"
 
 [dev-packages]
 
